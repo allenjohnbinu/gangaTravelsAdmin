@@ -1,0 +1,251 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width:65%;
+    margin:auto;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 0px;
+    min-height: 60px;
+    border-bottom:rgb(37, 164, 238) 5px solid;
+    margin-top: 0px;
+}
+
+.header1{
+    margin-left: 15px;
+    display: flex;
+}
+
+#showcase{
+    background-image: url('../img/bus.jpeg');
+    min-height: 500px;
+    min-width: 400px;
+    text-align: left;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 330px;
+    font-size: 36px;
+    font-style: italic;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+#boxes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    border: rgb(37, 164, 238) solid;
+    box-shadow: 5px 0px rgb(37, 164, 238);
+    background: #35424a;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+footer{
+    padding:6px;
+    color: white;
+    text-align: center;
+    background-color: rgb(37, 164, 238);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color: rgb(37, 164, 238);
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #35424a;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.add{
+    width:65%;
+    margin:auto;
+    margin-top: 0px;
+    overflow: hidden;
+    justify-content: center;
+    background-color: wheat;
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: rgb(37, 164, 238);
+    margin: 0px auto;
+    padding: 30px;
+    box-shadow: 11px 11px 12px rgb(100, 186, 236);
+}
+
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #35424a;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.wrapper .formT {
+    width: 100%;
+}
+
+input, select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #35424a;
+  }
+
+.searchcase {  
+    display: flex;
+    /* flex-flow: row wrap; */
+    align-items: center;
+}
+  
+.searchcase label {
+    margin: 5px 10px 5px 0;  
+}
+  
+.searchcase input, select {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 5px solid rgb(100, 186, 236);
+}
+  
+.searchcase button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+}
+  
+.searchcase button:hover {
+  background-color: royalblue;
+}
+  
+@media (max-width: 800px) {
+    .searchcase input {
+      margin: 10px 0;
+    }
+    
+    .searchcase {
+      flex-direction: column;
+      align-items: stretch;
+    }
+}
+
+table.darkTable {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: 2px solid #000000;
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 73px;
+    text-align: left;
+    border-collapse: collapse;
+}
+  
+table.darkTable td, table.darkTable th {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+}
+  
+table.darkTable tbody td {
+    font-size: 13px;
+    color: #E6E6E6;
+    border: 3px solid #000000;
+}
+
+table.darkTable tr:nth-child(even) {
+    background: #888888;
+}
+
+table.darkTable thead {
+    background: #000000;
+    border: 3px solid #000000;
+}
+
+table.darkTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border: 2px solid #4A4A4A;
+}
+
+table.darkTable thead th:first-child {
+    border-left: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container > table {
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
