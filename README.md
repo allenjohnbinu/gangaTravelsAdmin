@@ -14,3 +14,5 @@
 4. Using the browser go to "ip_address"/app/home.php
 
 * In the presentation video spelling of TRAVELS is given TARVELS, it is rectified in the code after that.
+
+FOR VIEWING THE PAGES VISIT TravelsGuide.pdf
